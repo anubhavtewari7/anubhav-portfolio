@@ -49,7 +49,7 @@ export const Closing = () => (
       </h2>
     </Reveal>
     <div className="mt-16 grid gap-8 lg:grid-cols-[0.35fr_1fr]">
-      <p className="mono hidden text-[11px] uppercase tracking-[0.25em] text-[#a3abb8] lg:block">// Why growth</p>
+      <p className="mono hidden text-[11px] uppercase tracking-[0.25em] text-[#a3abb8] lg:block">{"// Why growth"}</p>
       <div className="max-w-3xl space-y-7" data-testid="closing-paragraph">
         {PARAS.map((p, i) => (
           <Reveal key={i} delay={i * 0.05}>
@@ -59,7 +59,7 @@ export const Closing = () => (
       </div>
     </div>
     <div className="mt-24 grid gap-8 lg:grid-cols-[0.35fr_1fr]">
-      <p className="mono hidden text-[11px] uppercase tracking-[0.25em] text-[#a3abb8] lg:block">// Where the $3,000 goes</p>
+      <p className="mono hidden text-[11px] uppercase tracking-[0.25em] text-[#a3abb8] lg:block">{"// Where the $3,000 goes"}</p>
       <div>
         <Reveal>
           <div className="glass relative overflow-hidden rounded-2xl border-l-2 !border-l-[#f59e0b] p-7 sm:p-10" data-testid="ask-callout">
