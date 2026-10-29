@@ -1,0 +1,11 @@
+{
+  "short_name": "Anubhav Tewari",
+  "name": "Anubhav Tewari — I found the broken system",
+  "icons": [
+    { "src": "favicon.svg", "type": "image/svg+xml", "sizes": "any" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0B0D10",
+  "background_color": "#0B0D10"
+}
