@@ -49,16 +49,16 @@ export const EngineRoom = () => {
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
-            <div className="relative mt-12 aspect-[4/5] overflow-hidden rounded-2xl [clip-path:polygon(0_0,100%_0,100%_88%,86%_100%,0_100%)]">
+            <div className="relative mt-12 aspect-[4/3] overflow-hidden rounded-2xl [clip-path:polygon(0_0,100%_0,100%_88%,86%_100%,0_100%)]">
               <motion.img
                 src="/img/engine.jpg"
-                alt="Engine on a workbench in front of automotive blueprints"
-                style={{ y: iy, scale: 1.18 }}
+                alt="Exploded view of a Slate truck, every body panel and component separated"
+                style={{ y: iy, scale: 1.1 }}
                 className="h-full w-full object-cover grayscale contrast-125"
               />
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_60%_70%,transparent_10%,rgba(11,13,16,0.85)_70%)]" />
               <div className="absolute inset-0 bg-[#f59e0b]/10 mix-blend-color" />
-              <p className="mono absolute bottom-5 left-5 text-[11px] uppercase tracking-[0.2em] text-white/80">Fig. 03 — where the money hides</p>
+              <p className="mono absolute bottom-5 left-5 text-[11px] uppercase tracking-[0.2em] text-white/80">Fig. 03 — every part, accounted for</p>
             </div>
           </Reveal>
         </div>
