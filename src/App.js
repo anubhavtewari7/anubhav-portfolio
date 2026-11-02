@@ -10,6 +10,7 @@ import { EngineRoom } from "./components/EngineRoom";
 import { Closing } from "./components/Closing";
 import { Logo } from "./components/Logo";
 import { QuickMode } from "./components/QuickMode";
+import { AskAnubhav } from "./components/AskAnubhav";
 
 const Footer = () => (
   <footer className="border-t border-white/5" data-testid="site-footer">
@@ -45,6 +46,7 @@ function App() {
         <Closing />
       </main>
       <Footer />
+      <AskAnubhav />
     </div>
   );
 }
