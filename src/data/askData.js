@@ -58,7 +58,17 @@ export const ENTRIES = [
     keywords: ["contact", "email", "reach you", "linkedin", "resume", "hire you", "get in touch"],
     a: "Easiest way: email anubhavtewari7@gmail.com or connect on LinkedIn (linkedin.com/in/anubhavtewari7). Hit \"Contact\" in the nav above, or scroll down to The Ask for the full pitch.",
   },
+  {
+    id: "work-history",
+    keywords: ["where have you worked", "work history", "worked at", "previous companies", "previous company", "employers", "employer", "career history", "where do you work", "companies you've worked", "job history", "your background", "what companies"],
+    a: "I'm currently working as a design release engineer across automotive and off-highway vehicle programs — the Ford Motor Company redesigns and the Case New Holland tooling decision on this site (The Engine Room) are real, shipped examples of that work, not hypotheticals. For the full employer-by-employer timeline with dates and titles, LinkedIn (linkedin.com/in/anubhavtewari7) or my resume has the detail — email anubhavtewari7@gmail.com and I'll send it directly.",
+  },
+  {
+    id: "off-topic-personal",
+    keywords: ["free time", "hobby", "hobbies", "weekend", "favorite", "favourite", "outside of work", "fun fact", "personal life", "what do you do for fun"],
+    a: "That one's outside what this system actually knows — it's built on Anubhav's real work, not his personal life, so I'd rather not guess. If you're curious, that's a much better question for an actual conversation: anubhavtewari7@gmail.com or LinkedIn (linkedin.com/in/anubhavtewari7).",
+  },
 ];
 
 export const FALLBACK =
-  "I don't have a canned answer for that one — but it's exactly the kind of thing worth asking Anubhav directly. Email anubhavtewari7@gmail.com or try one of the suggested questions above.";
+  "I don't have a grounded answer for that one yet — rather than guess, I'll point you to Anubhav directly. Email anubhavtewari7@gmail.com, or try one of the suggested questions above.";
